@@ -56,7 +56,7 @@ std::string infix_to_postfix(const std::string& expr)
         }
         else
         {
-            throw std::runtime_error("unrecognized char " + c);
+            throw std::runtime_error(std::string("unrecognized char ") + c);
         }
     }
     while (!s.empty())
