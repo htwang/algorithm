@@ -70,5 +70,5 @@ std::string infix_to_postfix(const std::string& expr)
 int main()
 {
     std::string infix = "($aa+$b*($c^$d-$e)^($f+$g*$h))-$i";
-    std::cout << infix_to_postfix(infix) << std::endl;
+    std::cout << "infix:" << infix << " -> postfix:" << infix_to_postfix(infix) << std::endl;
 }
